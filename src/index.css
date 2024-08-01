@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background: linear-gradient(to right, #4f46e5, #3b82f6); /* Gradiente azul */
+  background-color: #000300; /* Cor de fundo para dispositivos mais antigos */
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: linear-gradient(to right, #000000, #10001b); /* Gradiente escuro */
+    background-color: #000000; /* Cor de fundo para dispositivos mais antigos */
+  }
+}
