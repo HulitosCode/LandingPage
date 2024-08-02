@@ -1,6 +1,5 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { HashLink as Link } from "react-router-hash-link";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Vissao from "./components/Vissao";
@@ -9,8 +8,18 @@ import Servicos from "./components/Servicos";
 import Preco from "./components/Preco";
 import Cards from "./components/Cards";
 import Footer from "./components/Footer";
+import ScrollUpButton from './components/ScrollUpButton'; 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+   
+
 
 function App() {
+
+  useEffect(() => {
+    AOS.init({duration: 2000});
+}, []);
+
   return (
     <BrowserRouter>
         <Navbar />
@@ -20,6 +29,7 @@ function App() {
         <Services />
         <Preco />
         <Cards />
+        <ScrollUpButton />
         <Footer />
     </BrowserRouter>
   );

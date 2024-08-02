@@ -1,14 +1,7 @@
-import React, {useEffect} from "react";
+import React from "react";
 import { ReactTyped } from "react-typed";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
 
 const Hero = () => {
-
-    useEffect(() => {
-        AOS.init({duration: 2000});
-    }, []);
 
     return (
         

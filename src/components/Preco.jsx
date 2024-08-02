@@ -1,6 +1,7 @@
 import React from "react";
 import Laptop from "../assets/imgs/planejamento.jpg";
 
+
 const Preco = () => {
     return (
         <div id="precos" className="w-full bg-[#050505] py-16 px-4">
