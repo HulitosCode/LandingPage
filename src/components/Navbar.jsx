@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { HashLink as Link } from 'react-router-hash-link';
+import Logo from "../assets/imgs/l.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -11,9 +12,10 @@ const Navbar = () => {
 
   return (
       <div className="z-50 max-w-screen-xl h-24 flex flex-wrap items-center justify-between mx-auto p-4">
-        <div className="flex items-center">
+        <div className="flex items-center space-x-3 rtl:space-x-reverse">
+        <img className='h-8' src={Logo} alt="" />
           <a href="#" className="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-l from-pink-800 to-purple-900">
-            DevNexus
+            Dev Nexus
           </a>
         </div>
         <div className="flex md:order-2 space-x-3 rtl:space-x-reverse">
