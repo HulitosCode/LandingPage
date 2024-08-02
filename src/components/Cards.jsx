@@ -7,7 +7,7 @@ const Cards = () => {
     return (
         <div className='w-full bg-white py-[10rem] px-4 '>
             <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8 p-4'>
-                <div className='w-full shadow-2xl border-2 border-blue-600 flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
+                <div data-aos="zoom-in" className='w-full shadow-2xl border-2 border-blue-600 flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
                     <h2 className='text-2xl font-bold text-center py-8'>Desenvolvimento de Sistemas Web</h2>
                     <p className='text-center text-4xl font-bold'>Preço Por Negociação</p>
                     <div className='text-center font-medium'>
@@ -25,7 +25,7 @@ const Cards = () => {
                         <a href="https://wa.me/+258833064723" target="_blank" rel="noopener noreferrer">Whatsapp</a>
                     </button>
                 </div>
-                <div className='w-full shadow-2xl border-2 border-purple-600 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300'>
+                <div data-aos="zoom-out" className='w-full shadow-2xl border-2 border-purple-600 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300'>
                     <h2 className='text-2xl font-bold text-center py-8'>Criação de sites</h2>
                     <p className='text-center text-4xl font-bold'>35.000,00 MZN</p>
                     <div className='text-center font-medium'>
@@ -46,7 +46,7 @@ const Cards = () => {
                         <a href="https://wa.me/+258833064723" target="_blank" rel="noopener noreferrer">Whatsapp</a>
                     </button>
                 </div>
-                <div className='w-full border-2 border-pink-600 shadow-2xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
+                <div data-aos="zoom-in" className='w-full border-2 border-pink-600 shadow-2xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
                     <h2 className='text-2xl font-bold text-center py-8'>Identidade Visual</h2>
                     <p className='text-center text-4xl font-bold'>Preço Por Serviço</p>
                     <div className='text-center font-medium'>

@@ -5,8 +5,8 @@ const Preco = () => {
     return (
         <div id="precos" className="w-full bg-[#050505] py-16 px-4">
             <div className="max-w-screen-xl mx-auto grid md:grid-cols-2 p-4">
-                <img className="w-[500px] mx-auto my-4" src={Laptop} alt="/" />
-                <div className="flex flex-col justify-center">
+                <img data-aos="zoom-in" className="w-[500px] mx-auto my-4" src={Laptop} alt="/" />
+                <div data-aos="fade-left" className="flex flex-col justify-center">
                     <p className="text-white uppercase font-bold">Ajudamos a Escalar Seu Negócio</p>
                     <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-pink-800 via to-purple-900 py-2">Planos e Preços Competitivos</h1>
                     <p className="text-gray-400">

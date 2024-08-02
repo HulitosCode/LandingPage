@@ -1,13 +1,19 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { ReactTyped } from "react-typed";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Hero = () => {
+
+    useEffect(() => {
+        AOS.init({duration: 2000});
+    }, []);
+
     return (
         
         <div className="text-white" id="/">
-            <div className="max-w-[800px] lg:mt-[-96px] md:mt-[-50px] w-full h-screen mx-auto text-center flex flex-col justify-center">
+            <div data-aos="fade-up" className="max-w-[800px] lg:mt-[-96px] md:mt-[-50px] w-full h-screen mx-auto text-center flex flex-col justify-center">
                 <p className="font-bold p-2 text-transparent bg-clip-text bg-gradient-to-l from-pink-800 via to-purple-900">
                     <span className="text-white">Bem-vindo ao</span> DevNexus!
                 </p>

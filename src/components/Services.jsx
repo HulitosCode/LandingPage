@@ -8,7 +8,7 @@ const Services = () => {
         <div className="w-full bg-black py-16 px-4">
             <div className="grid md:grid-cols-3 max-w-screen-xl gap-8 mx-auto p-4">
                 
-                <div className="hover:scale-105 duration-300 max-w-sm border border-blue-800 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div data-aos="fade-right" className="hover:scale-105 duration-300 max-w-sm border border-blue-800 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
                         <img className="rounded-t-lg" src={Sistema} alt="Desenvolvimento de Sistemas Web" />
                     </a>
@@ -20,7 +20,7 @@ const Services = () => {
                     </div>
                 </div>
 
-                <div className="hover:scale-105 duration-300 max-w-sm border border-purple-800 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div data-aos="zoom-in" className="hover:scale-105 duration-300 max-w-sm border border-purple-800 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
                         <img className="rounded-t-lg" src={Site} alt="Criação de Sites" />
                     </a>
@@ -32,7 +32,7 @@ const Services = () => {
                     </div>
                 </div>
 
-                <div className="hover:scale-105 duration-300 max-w-sm border border-pink-800 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div data-aos="fade-left" className="hover:scale-105 duration-300 max-w-sm border border-pink-800 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
                         <img className="rounded-t-lg" src={Design} alt="Identidade Visual" />
                     </a>
