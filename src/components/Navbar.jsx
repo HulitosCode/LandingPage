@@ -17,7 +17,9 @@ const Navbar = () => {
         </a>
         <div className="flex md:order-2 space-x-3 rtl:space-x-reverse">
           <button type="button" className="text-black bg-white font-medium rounded-md text-sm px-4 py-2 text-center">
+            <a href="tel:+258843779669">
             Contactar
+            </a>
           </button>
           <div onClick={handleNav} className="text-white py-2 md:hidden">
             {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
@@ -37,7 +39,7 @@ const Navbar = () => {
             <li className="p-4">
               <Link smooth to="#precos">Precos</Link>
             </li>
-            <li href="tel:+258843779669" className="p-4">
+            <li className="p-4">
               <Link smooth to="#contactos">Contactos</Link>
             </li>
           </ul>
