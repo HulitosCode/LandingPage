@@ -15,21 +15,23 @@ const Hero = () => {
                         Conectando Inovação e <span className="text-white" style={{ textShadow: '1px 1px 3px white' }}>Tecnologia</span>
                     </h1>
                 <div className="flex justify-center items-center">
-                    <p className="md:text-2xl sm:text-4xl text-xl font-bold py-4 text-white">
-                    Na DevNexus, conectamos você às melhores soluções tecnológicas
+                    <p className="md:text-xl text-sm font-bold py-4 text-white">
+                    Na DevNexus, conectamos você às 
                     </p>
-                    {/* <ReactTyped 
-                    className="md:text-2xl sm:text-4xl text-xl font-bold pl-2"
-                        strings={['Desenvolvimento Web', 'Desenvolvimento de Sites', 'Identidade Visual']}
+                    <ReactTyped 
+                    className="md:text-xl text-sm font-bold pl-2"
+                        strings={['melhores', 'soluções', 'tecnológicas']}
                         typeSpeed={120}
                         backSpeed={140}
                         loop
-                    /> */}
+                    />
                 </div>
                 <p className="md:text-xl font-light text-gray-400">
                     Transformamos suas ideias em experiências digitais inovadoras que impulsionam o sucesso do seu negócio.
                 </p>
-                <button className="bg-white hover:scale-105 duration-300 w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black">Contactar</button>
+                <button className="bg-white hover:scale-105 duration-300 w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black">
+                    <a href="tel:+258833064723">Contactar</a>
+                </button>
             </div>
         </div>
     )
