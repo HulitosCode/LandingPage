@@ -37,7 +37,7 @@ const Navbar = () => {
             <li className="p-4">
               <Link smooth to="#precos">Precos</Link>
             </li>
-            <li className="p-4">
+            <li href="tel:+258843779669" className="p-4">
               <Link smooth to="#contactos">Contactos</Link>
             </li>
           </ul>
