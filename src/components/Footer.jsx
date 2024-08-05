@@ -12,7 +12,7 @@ const Footer = () => {
         <p className='py-4'>DevNexus, Conectando Inovação e Tecnologia. Transformamos suas ideias em experiências digitais inovadoras que impulsionam o sucesso do seu negócio.</p>
         <div className='flex gap-4 md:w-[20%] my-6'>
             <FaFacebookSquare size={30} />
-            <a href="https://l.instagram.com/devnexus3" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/devnexus3?igsh=aHp1cWd5b2pjaGNl&utm_source=qr" target="_blank" rel="noopener noreferrer">
               <FaInstagram size={30} />
             </a>
         </div>
